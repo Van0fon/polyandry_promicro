@@ -111,7 +111,7 @@ void loop() {
   }
   // Try debounce by 3 times
   if (((VX03 & mask) == mask) && !LX03) {
-    Keyboard.write(KEY_ESC);
+    Keyboard.press(KEY_ESC);
     LX03 = true;
     LXAL = true;
   } else if (((VX03 & mask) != mask) && LX03) {
@@ -125,7 +125,7 @@ void loop() {
   }
   // Try debounce by 3 times
   if (((VX04 & mask) == mask) && !LX04) {
-    Keyboard.write(KEY_F1);
+    Keyboard.press(KEY_F1);
     LX04 = true;
     LXAL = true;
   } else if (((VX04 & mask) != mask) && LX04) {
@@ -139,7 +139,7 @@ void loop() {
   }
   // Try debounce by 3 times
   if (((VX05 & mask) == mask) && !LX05) {
-    Keyboard.write(KEY_F2);
+    Keyboard.press(KEY_F2);
     LX05 = true;
     LXAL = true;
   } else if (((VX05 & mask) != mask) && LX05) {
@@ -153,7 +153,7 @@ void loop() {
   }
   // Try debounce by 3 times
   if (((VX06 & mask) == mask) && !LX06) {
-    Keyboard.write(KEY_F3);
+    Keyboard.press(KEY_F3);
     LX06 = true;
     LXAL = true;
   } else if (((VX06 & mask) != mask) && LX06) {
@@ -167,7 +167,7 @@ void loop() {
   }
   // Try debounce by 3 times
   if (((VX07 & mask) == mask) && !LX07) {
-    Keyboard.write(KEY_F4);
+    Keyboard.press(KEY_F4);
     LX07 = true;
     LXAL = true;
   } else if (((VX07 & mask) != mask) && LX07) {
@@ -181,7 +181,7 @@ void loop() {
   }
   // Try debounce by 3 times
   if (((VX08 & mask) == mask) && !LX08) {
-    Keyboard.write(KEY_F5);
+    Keyboard.press(KEY_F5);
     LX08 = true;
     LXAL = true;
   } else if (((VX08 & mask) != mask) && LX08) {
@@ -195,7 +195,7 @@ void loop() {
   }
   // Try debounce by 3 times
   if (((VX09 & mask) == mask) && !LX09) {
-    Keyboard.write(KEY_F6);
+    Keyboard.press(KEY_F6);
     LX09 = true;
     LXAL = true;
   } else if (((VX09 & mask) != mask) && LX09) {
@@ -209,7 +209,7 @@ void loop() {
   }
   // Try debounce by 3 times
   if (((VX10 & mask) == mask) && !LX10) {
-    Keyboard.write(KEY_LEFT_CTRL);
+    Keyboard.press(KEY_LEFT_CTRL);
     LX10 = true;
     LXAL = true;
   } else if (((VX10 & mask) != mask) && LX10) {
@@ -223,7 +223,7 @@ void loop() {
   }
   // Try debounce by 3 times
   if (((VX11 & mask) == mask) && !LX11) {
-    Keyboard.write(KEY_F7);
+    Keyboard.press(KEY_F7);
     LX11 = true;
     LXAL = true;
   } else if (((VX11 & mask) != mask) && LX11) {
@@ -237,7 +237,7 @@ void loop() {
   }
   // Try debounce by 3 times
   if (((VX12 & mask) == mask) && !LX12) {
-    Keyboard.write(KEY_F8);
+    Keyboard.press(KEY_F8);
     LX12 = true;
     LXAL = true;
   } else if (((VX12 & mask) != mask) && LX12) {
